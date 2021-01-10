@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-hw-09",
+  "description": "npm mastering",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "babel src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawnrayVM/goit-js-hw-09.git"
+  },
+  "keywords": [],
+  "author": "Valeriy Mashura <dr.mashura@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DawnrayVM/goit-js-hw-09/issues"
+  },
+  "homepage": "https://github.com/DawnrayVM/goit-js-hw-09#readme",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-core": "^6.26.3"
+  }
+}
